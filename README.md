@@ -1,3 +1,7 @@
+<img width="1630" height="816" alt="Screenshot 2026-10-25 215440" src="https://github.com/user-attachments/assets/1f4da62a-fbb2-4444-a949-13b32444f4b2" />
+<img width="643" height="357" alt="Screenshot 2026-10-25 195554" src="https://github.com/user-attachments/assets/68ee8901-273f-4f48-bf89-c90cf1abdc44" />
+<img width="643" height="357" alt="Screenshot 2026-10-25 195554" src="https://github.com/user-attachments/assets/7d599188-a31a-4807-bc46-8319ecc87b95" />
+<img width="1630" height="816" alt="Screenshot 2026-10-25 215440" src="https://github.com/user-attachments/assets/ffb944a1-9138-445f-8c3b-685177f9aa0c" />
 # Pocket-Piano
 Creating a pocket piano, which is an 8-key mini synthesizer built around XIAO RP2040, with a potentiometer that shifts the octave and a small speaker that plays each note.
 
