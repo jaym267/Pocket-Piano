@@ -1,3 +1,15 @@
+
+Designed a Pocket-Piano, which is an 8-key mini synthesizer. Each key plays one note of a C major scale, from C4 to C5, and a knob shifts every key down or up an octave. It's built around a C XIAO RP2040 microcontroller and plays sound through a small buzzer.
+This is a design stage. For the schematic on Kicad, I was able to create it through the project library and wired the 8 push buttons to pins D2 through D9, with each button's other side going to the ground, so no resistors were needed. The knob connects to the 3.3V, ground, and analog pin DO. The buzzer connects to pin D1 through a 100 Ω resistor. I used net labels instead of long wires, added power flags, marked unused pins as no connect, and got the light scroll wheel checked with 0 errors.
+For the PCB layout, I made a 100 × 50 mm two-layer board with the 8 keys in a row along the bottom, the XIAO, knob, buzzer, and resistor along the top, and M3 mounting holes in all 4 corners. I routed the trace on the front layer via to send the knob signal under the board and flipped both layers with the ground copper.
+Finally, for the case and firmware:
+For the case, I imported the board's 3D model and worked on creating the 4 standoff screw holes so that it can be screwed on for the mounting holes, and a notch in the back. Also, a USB-C cable can reset XIAO. I also exported it as a STEP and STL for 3D printing.
+For the firmware, I use Arduino, which wrote the code in 3 stages:
+1. Compiling each one
+2. Setting up the pins
+3. Checking which keys are pressed and placing it
+It's a note with tone and gives it a cooldown between notes so that no keys sound at the same time, and reads a note to switch between 3 octaves.
+
 <img width="1630" height="816" alt="Screenshot 2026-10-25 215440" src="https://github.com/user-attachments/assets/1f4da62a-fbb2-4444-a949-13b32444f4b2" />
 <img width="643" height="357" alt="Screenshot 2026-10-25 195554" src="https://github.com/user-attachments/assets/68ee8901-273f-4f48-bf89-c90cf1abdc44" />
 <img width="643" height="357" alt="Screenshot 2026-10-25 195554" src="https://github.com/user-attachments/assets/7d599188-a31a-4807-bc46-8319ecc87b95" />
