@@ -1,9 +1,2 @@
-Part,Quantity,Approx. price (USD),Where to buy
-Seeed XIAO RP2040,1,5.40,Seeed Studio / DigiKey
-6x6mm tactile button (through-hole),8,3.00,LCSC / DigiKey / Amazon
-10k potentiometer RK09K vertical,1,1.50,DigiKey / LCSC
-Passive piezo buzzer 12mm,1,1.50,LCSC / Amazon
-100 ohm resistor (through-hole),1,0.50,LCSC / DigiKey
-M3 x 10mm screws,4,2.00,Hardware store / Amazon
-PCB (5 pcs),1,5.00,JLCPCB / PCBWay
-Total,,18.90,
+Item,Qty,Supplier,Cost/item,Total Cost,link
+Estimated total shipping,1,,,$0.00,
