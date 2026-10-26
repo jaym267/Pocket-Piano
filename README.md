@@ -5,25 +5,11 @@ Creating a pocket piano, which is an 8-key mini synthesizer built around XIAO RP
 Each of the 8 keys plays one note of a C major scale (C4 to C5). The knob switches between three octaves: lower, normal, and higher. The XIAO RP2040 reads the buttons and drives a passive buzzer with PWM.
 
 ## Schematic
-![Schematic](images/schematic.png)
 
 ## PCB
-![PCB](images/pcb.png)
-![PCB 3D](images/pcb-3d.png)
+
 
 ## Case
 An open-top 3D-printed tray. The board sits on four standoffs and screws in with M3 screws. A notch in the back wall lets a USB-C cable reach the XIAO.
 
-![Case](images/case.png)
-
-## Files
-- `pcb/` KiCad project and gerbers.zip
-- `cad/` case (STEP and STL) and the PCB 3D model
-- `firmware/main/main.ino` Arduino code
-- `BOM.csv` parts list
-
-## BOM
-See [BOM.csv](BOM.csv). Estimated total: about $19 plus shipping.
-
-## What I learned
-[Write 2–3 sentences in your own words here]
+<img width="762" height="372" alt="Screenshot 2026-10-25 213117" src="https://github.com/user-attachments/assets/efd07170-af86-4475-ba04-6e8db981a24f" />
