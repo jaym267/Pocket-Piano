@@ -33,3 +33,6 @@ An open-top 3D-printed tray. The board sits on four standoffs and screws in with
 <img width="1236" height="735" alt="Screenshot 2026-10-25 183523" src="https://github.com/user-attachments/assets/bc78957b-3fe0-45cd-9883-1324e213ac7f" />
 <img width="1111" height="544" alt="Screenshot 2026-10-25 192553" src="https://github.com/user-attachments/assets/1e4ed094-ddaa-4253-9b84-a2bcccb0f9e2" />
 <img width="853" height="697" alt="Screenshot 2026-10-25 190018" src="https://github.com/user-attachments/assets/d9aa1f1b-4a0a-4e5f-9f48-2ded16e94f91" />
+
+<img width="822" height="690" alt="Screenshot 2026-10-25 195823" src="https://github.com/user-attachments/assets/d7cafaf7-d186-4836-bfb1-ebb9d026e340" />
+<img width="610" height="316" alt="Screenshot 2026-10-25 200445" src="https://github.com/user-attachments/assets/0fb1c609-79df-4d57-a247-d0f33797a155" />
